@@ -1,0 +1,15 @@
+#include "git-compat-util.h"
+#include "cache.h"
+#include "config.h"
+#include "pkt-line.h"
+#include "quote.h"
+#include "refs.h"
+#include "run-command.h"
+#include "remote.h"
+#include "connect.h"
+#include "url.h"
+#include "string-list.h"
+#include "sha1-array.h"
+#include "transport.h"
+
+ruby extends C
